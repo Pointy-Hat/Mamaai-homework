@@ -1,0 +1,16 @@
+version: "2.4"
+
+#networks:
+#  default-network:
+#    driver: host
+#    name: default-network
+
+services:
+  pdf-parse-server:
+    build:
+      context: ./pdfparse
+      dockerfile: Dockerfile
+    network_mode: host
+    volumes:
+        - .:/app
+    command: python run_app.py

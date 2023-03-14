@@ -1,0 +1,6 @@
+setup.py
+pdfparse_server.egg-info/PKG-INFO
+pdfparse_server.egg-info/SOURCES.txt
+pdfparse_server.egg-info/dependency_links.txt
+pdfparse_server.egg-info/requires.txt
+pdfparse_server.egg-info/top_level.txt
